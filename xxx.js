@@ -16,5 +16,7 @@
 // cat ~/.ssh/id_rsa.pub\
 
 // git status 查看哪些文件修改了
-// git add 文件名 
-// git add .
+// git add 文件名 保存某个文件到本地
+// git add . 保存全部文件到本地
+// git commit -m '这里写有意义的注释' 作用:提交代码
+// git push origin 远程分支：往远程分支提交代码
