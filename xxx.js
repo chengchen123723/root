@@ -20,4 +20,21 @@
 // git add 文件名 保存某个文件到本地
 // git add . 保存全部文件到本地
 // git commit -m '这里写有意义的注释' 作用:提交代码
-// git push origin 远程分支：往远程分支提交代码
+// git push origin 远程分支（master）：往远程分支提交代码
+// git log 查看日志
+// git checkout -b 你的分支名 origin/master :创建本地分支
+// git branch -v: 查看本地分支
+// git branch -a: 查看远程分支
+// git checkout 分支名 ：进入某个分支
+
+
+master - 主分支(文件夹1)
+dev （文件夹2）
+分支 -> 文件夹
+分支 -> 远程分支 本地分支
+
+1111111111111
+3333333333
+2222222222222
+// 这是小生爱的
+
