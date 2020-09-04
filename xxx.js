@@ -14,3 +14,7 @@
 // ssh-keygen -t rsa -C "你的github邮箱"
 // 2. 打开公钥
 // cat ~/.ssh/id_rsa.pub\
+
+// git status 查看哪些文件修改了
+// git add 文件名 
+// git add .
