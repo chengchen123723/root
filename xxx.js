@@ -15,6 +15,7 @@
 // 2. 打开公钥
 // cat ~/.ssh/id_rsa.pub\
 
+##常用命令
 // git status 查看哪些文件修改了
 // git add 文件名 保存某个文件到本地
 // git add . 保存全部文件到本地
