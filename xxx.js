@@ -31,6 +31,13 @@
 // git stash apply: 代码回滚(回到最近的存储)
 // git stash clear: 清空所有缓存
 // git stash apply stash@{1} 回到某一个存储上从0开始
+// git diff <file>:查看文件修改了哪些内容
+// git merge xsa  讲xsa分支与当前分支下
+
+1. 正常提交
+2. 切换到master
+3. git merge xsa
+4. 正常保存提交
 
 
 master - 主分支(文件夹1)
@@ -38,8 +45,6 @@ dev （文件夹2）
 分支 -> 文件夹
 分支 -> 远程分支 本地分支
 
-1111111111111
-3333333333
-2222222222222
+333
 // 这是小生爱的
 
