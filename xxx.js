@@ -26,6 +26,11 @@
 // git branch -v: 查看本地分支
 // git branch -a: 查看远程分支
 // git checkout 分支名 ：进入某个分支
+// git stash save: '文字说明':暂存 //把刚改的东西保存起来
+// git stash list: 查看缓存列表
+// git stash apply: 代码回滚(回到最近的存储)
+// git stash clear: 清空所有缓存
+// git stash apply stash@{1} 回到某一个存储上从0开始
 
 
 master - 主分支(文件夹1)
