@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function spawn (fn) {
+            return new Promise(resolve => {
+                const gen = fn()
+                console.log(gen)
+                function di(fs){
+                    const dt = fs()
+                    if(dt.done){
+                        return resolve(dt.value)
+                    }
+                    di(() => gen.next(dt.value))
+                }
+                di(() => gen.next(undefined))
+            })
+        }
+        spawn(fn).then(res => {
+            console.log(res)
+        })
+        function * fn() {
+            const p1 = yield '小花'
+            const p2 = yield '小白'
+            const p3 = yield '小兰'
+            return [p1, p2, p3]
+        }
+        const Fn = fn()
+        // console.log(Fn.next())
+        // console.log(Fn.next())
+        // console.log(Fn.next())
+
+    </script>
+</body>
+</html>
